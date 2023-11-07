@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__navigation">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <!-- <li class="header__list-item"><a href="#Contacts" class="header__list-link">Contacts</a></li>
+                        <li class="header__list-item"><a href="#About-Me" class="header__list-link">About Me</a></li> -->
+                        <li class="header__list-item"><a href="#Skills" class="header__list-link">Skills</a></li>
+                        <li class="header__list-item"><a href="#Education" class="header__list-link">Education</a></li>
+                        <li class="header__list-item"><a href="#Work-Experience" class="header__list-link">Work Experience</a></li>
+                        <li class="header__list-item"><a href="#Code-Example" class="header__list-link">Code Example</a></li>
+                        <li class="header__list-item"><a href="#English" class="header__list-link">English</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__left-column">
+                <div class="main__left-block"><h1>ASAN UMAROV<br>FRONT-END DEVELOPER</h1></div>
+                <div class="main__left-title" id="Contacts"><h2>Contacts</h2></div>
+                <div class="main__left-item">
+                    <ul class="main__left-contacts-list">
+                        <li class="main__left-contacts-item"><img class="main__left-contacts-email-svg" src="./svg/email-icon.svg" alt="email"><a class="main__left-contacts-email" href="mailto:asan-31@mail.ru"><span>asan-31@mail.ru</span></a></li>
+                        <li class="main__left-contacts-item"><img class="main__left-contacts-github-svg" src="./svg/github.svg" alt="github"><a class="main__left-contacts-github" href="https://github.com/UmarovAsan" target="_blank"><span>UmarovAsan</span></a></li>
+                        <li class="main__left-contacts-item"><img class="main__left-contacts-telegram-svg" src="./svg/telegram.svg" alt="telegram"><a class="main__left-contacts-telegram" href="https://t.me/justCezar" target="_blank"><span>Telegram</span></a></li>
+                        <li class="main__left-contacts-item"><img class="main__left-contacts-location-svg" src="./svg/location.svg" alt="location"><a class="main__left-contacts-location" href="#"><span>Kostanay, Kazachstan.</span></a></li>
+                    </ul>
+                </div>
+                <div class="main__left-title" id="Skills"><h2>Skills</h2></div>
+                <div class="main__left-item">
+                    <ul class="main__left-skills-list">
+                        <li class="main__left-skills-item">Python basics</li>
+                        <li class="main__left-skills-item">HTML</li>
+                        <li class="main__left-skills-item">CSS</li>
+                        <li class="main__left-skills-item">JavaScript</li>
+                        <li class="main__left-skills-item">Git</li>
+                    </ul>
+                </div>
+                <div class="main__left-title" id="English"><h2>English</h2></div>
+                <ul class="main__left-english-list">
+                    <li class="main__left-english-item">A0</li>
+                </ul>
+            </div>
+            <div class="main__right-column">
+                <div class="main__right-block-wrapper">
+                    <div class="main__right-block">
+                        <img src="./img/Foto.png" alt="avatar">
+                    </div>
+                </div>
+                <div class="main__right-block-wrapper">
+                    <div class="main__right-title" id="About-Me"><h2>About Me</h2></div>
+                    <p class="main__right-column-text">
+                        I am a beginner web developer.<br>
+                        My path to it starts with RS School. I want to develop in the field of information technology.
+                    </p>
+                </div>
+                <div class="main__right-block-wrapper">
+                    <div class="main__right-title" id="Education"><h2>Education</h2></div>
+                    <p class="main__right-column-text-education">
+                        University:<br>
+                        Kostanay engineering and economic university, specialty agricultural engineer.
+                    </p>
+                    <p class="main__right-column-text">
+                        Courses:<br>
+                        RS School - JS / FRONT-END. STAGE 0<br>
+                        Practicum Yandex - Python basics
+                    </p>
+                </div>
+                <div class="main__right-block-wrapper">
+                    <div class="main__right-title" id="Work-Experience"><h2>Work Experience</h2></div>
+                    <p class="main__right-column-text">
+                        Image gallery using API
+                        <a href="https://umarovasan.github.io/educational-project/image-galery/" target="_blank">Image gallery</a>
+                    </p>
+                </div>
+                <div class="main__right-block-wrapper">
+                    <div class="main__right-title" id="Code-Example"><h2>Code Example</h2></div>
+                    <a class="main__right-column-text" href="https://www.codewars.com/kata/595970246c9b8fa0a8000086/solutions/javascript?filter=me&sort=best_practice&invalids=false" target="_blank">
+                        <p>Function to convert the first character of a string to uppercase</p>
+                    </a>
+                    <p class="main__right-column-text"><code>
+                        function capitalizeWord(word){<br>
+                        if (!word) return word;<br>
+                        return `${word[0].toUpperCase()}${word.slice(1)}`;<br>
+                        }
+                    </code></p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="date">2023</div>
+                <div class="link-school"><a href="https://rs.school/js/" target="_blank"><img class="icon-school" src="./svg/rs_school_js.svg" alt="iconRSSchool"></a></div>
+                <div class="link-github"><a href="https://github.com/UmarovAsan" target="_blank"><img class="icon-github" src="./svg/github.svg" alt="icon github"></a></div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
