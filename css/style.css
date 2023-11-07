@@ -229,10 +229,26 @@ h1,h2,h3,h4,h5,h6 {font-family: Inter;font-size: inherit;font-weight: 400;}
     margin: auto;
 }
 
+.main__right-column-text-education,
+.main__right-column-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    text-align: left;
+    flex-wrap: wrap;
+    margin: auto;
+}
 
+.main__right-column-text-education {
+    margin-bottom: 10px;
+}
 
-
-
+.main__right-column-text p:hover,
+.main__right-column-text a:hover {
+    color: #F28C18;
+    transition: 0.3s ease;
+}
 
 .footer {
     background-color: #342D31;
