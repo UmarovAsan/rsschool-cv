@@ -30,7 +30,7 @@ function capitalizeWord(word) {
 
 ## **Work Experience**
 Image gallery using API  
-
+[Image gallery](https://umarovasan.github.io/educational-project/image-galery/)
 
 ## **Education**
 University:  
